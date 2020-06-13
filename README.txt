@@ -3,13 +3,12 @@
 
 
 
-Overview: 
+Overview:
 
 This file contains the installation instructions for the Libris Library Management System.
 
 
-Note: you must have the Java Runtime installed in order to run the Libris client or server 
-program.  You may download the latest version of the Java Runtime here:
+Note: you must have the Java Runtime installed in order to run the Libris client or server program.  You may download the latest version of the Java Runtime here:
 http://www.java.com
 
 
@@ -22,8 +21,7 @@ Installation Instructions for the Libris Client Program
 
 
 How To Run the Libris Client Program
-1. Open the operating system’s command prompt and navigate to the installation
-directory.
+1. Open the operating system’s command prompt and navigate to the installation directory.
 2. Run the following command: javaw -jar libris_client.jar
 
 
@@ -33,10 +31,9 @@ Libris Server:
 
 Installation Instructions for Libris Server Program
 1. Ensure MySQL Server version 5.5 or greater is installed.
-        Included is MySQL Server 5.5 for windows.
 2. Either:
  a) Pipe the build_librisdb.sql file into mysql using the following command
-                mysql -u “username” -p”password” < build_librisdb.sql
+                mysql -u "username" -p"password" < build_librisdb.sql
 You may need to specify the path for the mysql command if it is not a part of the classpath.
  b) Copy and paste the contents of the build_librisdb.sql file into the mysql prompt
 3. Run “java -jar libris_server.jar” for the first time. It will probably shut itself down but that is OK. It created a file under config/server.config to edit.
@@ -45,8 +42,7 @@ You may need to specify the path for the mysql command if it is not a part of th
 
 
 How To Run the Libris Server Program
-1. Open the operating system’s command prompt and navigate to the installation
-directory.
+1. Open the operating system’s command prompt and navigate to the installation directory.
 2. Run the following command: java -jar libris_server.jar
 
 
