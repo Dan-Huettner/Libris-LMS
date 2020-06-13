@@ -1,6 +1,6 @@
 # Libris Library Management System
 
-Libris was a term project for CPSC 2301 (Software Engineering), a course I completed at Langara College in Fall of 2012. It was developed by a team of seven computer science and business students, of which I was the project manager.
+Libris was a term project for CPSC 2301 (Software Engineering), a course our team completed at Langara College in the Fall of 2012. It was developed by a team of seven computer science and business students, of which Daniel Huettner was the project manager.
 
 Libris was developed for a library at a local college. It facilitates the essential operations of the library, including inventory management, user management, transaction management, subscription management, and maintenance of the database.
 
