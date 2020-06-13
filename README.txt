@@ -3,7 +3,7 @@
 
 
 
-Overview:
+Overview: 
 
 This file contains the installation instructions for the Libris Library Management System.
 
